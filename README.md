@@ -66,7 +66,11 @@ the angular app, you need to deploy the frontend side separately.
 
 https://docs.npmjs.com/getting-started/installing-node#install-npm--manage-npm-versions
 
-2. `cd <path_to_the_project>/frontend`
+2. Install the Angular CLI globally.
+
+`npm install -g @angular/cli`
+
+3. `cd <path_to_the_project>/frontend`
 Run `npm install` from this directory
 
 If installing of node packages was successful running
@@ -82,10 +86,10 @@ Angular: 6.1.10
 ... platform-server, router, upgrade
 ```
 
-3. Run `ng serve` to start the local node server
+4. Run `ng serve` to start the local node server
 It should say `...listening on localhost:4200`.
 
-4. Navigate to localhost:4200 in the browser to see the running app.
+5. Navigate to localhost:4200 in the browser to see the running app.
 
 Now if you make changes to angular components they should be immediately seen at
 localhost:4200 without refreshing or collecting static data for the django app.

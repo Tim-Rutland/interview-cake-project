@@ -1,4 +1,4 @@
-Backend deployment
+# Backend deployment
 
 1. git clone git@github.com:scopic/interview-cake-project.git
 
@@ -57,7 +57,7 @@ gunicorn server with a command
 10. Navigate to the localhost:8000 in the browser.
 
 
-Frontend deployment:
+# Frontend deployment:
 Note: If you're only deployed the backend side of the app then
 the static files served from the backend are well 'static'. In order to make changes to
 the angular app, you need to deploy the frontend side separately.

@@ -50,6 +50,10 @@ prompt.
 
 9. Run `python3 manage.py runserver 0.0.0.0:8000`
 
+This will run the django app with local settings. For production you will need to use
+gunicorn server with a command
+`python3 manage.py runserver 0.0.0.0:8000 --settings=interview_cake.config.production`
+
 10. Navigate to the localhost:8000 in the browser.
 
 
